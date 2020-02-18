@@ -107,3 +107,8 @@ app.post("/login", function(req, res) {
 app.listen(3000, function() {
   console.log("Server started on port 3000");
 });
+
+//third party authentication still need to be done,
+//als finshing up (section 394);
+
+//to completely understand passport sesseions passport-local-mongoose you should go through their documentation
